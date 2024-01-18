@@ -1,13 +1,6 @@
 # Projekt i Webbutveckling III (DT173G) webbtjänst/API
 I detta respitory finns flera API byggt i PHP som har skapats under projektarbetet i kursen Webbutveckling III på Mittuniversitetet. API:na kan användas för att hantera menyer och bokningar för en restaurang samt kontrollera inloggning. För meny och bokningar finns funktionalitet för CRUD, det vill säga skapa, läsa, uppdatera och radera.
 
-## Länkar till existerande versioner
-Meny-API: [https://studenter.miun.se/~sowi2102/writeable/dt173g/projekt/webservice/menuapi.php](https://studenter.miun.se/~sowi2102/writeable/dt173g/projekt/webservice/menuapi.php)
-
-Boknings-API: [https://studenter.miun.se/~sowi2102/writeable/dt173g/projekt/webservice/bookingapi.php](https://studenter.miun.se/~sowi2102/writeable/dt173g/projekt/webservice/bookingapi.php)
-
-Login används bara för att kontrollera inloggning och innehåller därför inget visuellt att visa.
-
 ## Installation
 För att börja använda API:et behöver filerna kopieras till en webbserver. Kör sedan installationsscripten i filen install.php för att skapa de tabeller som API:na behöver för att kunna användas. För att kunna använda API:et login behöver användarnamn och ett hashat lösenord läggas in via phpmyadmin manuellt.
 
